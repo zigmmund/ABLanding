@@ -42,7 +42,10 @@
 
   <div class="large-hero page-section page-section--has-no-paddings" id="home" data-matching-link="#home-link">
     <picture>
-      <img srcset="assets/images/hero--large.jpg" alt="Activbookings" class="large-hero__image">
+      <source media="(min-width: 990px)" srcset="assets/images/hero--large.jpg">
+      <source media="(min-width: 640px)" srcset="assets/images/hero--medium.jpg">
+      <img src="assets/images/hero--small.jpg"
+        alt="Activbookings" class="large-hero__image">
     </picture>
     <div class="large-hero__text-content">
       <div class="wrapper">
@@ -129,7 +132,7 @@
 
       <div class="row row--gutters-small">
         <div class="row__large-4 row__b-margin">
-          <div class="benefit">
+          <div class="benefit benefit--has-maring-until-medium">
             <div class="benefit__content">
               <img src="assets/images/comunicar-icon.png" alt="Comunicar">
               <h4 class="benefit__caption benefit__caption--green">Comunicar</h4>
@@ -138,7 +141,7 @@
           </div>
         </div>
         <div class="row__large-4 row__b-margin">
-          <div class="benefit ">
+          <div class="benefit benefit--has-maring-until-medium">
             <div class="benefit__content">
               <img src="assets/images/gerir-icon.png" alt="Gerir">
               <h4 class="benefit__caption benefit__caption--light-green">Gerir</h4>
@@ -147,7 +150,7 @@
           </div>
         </div>
         <div class="row__large-4 row__b-margin">
-          <div class="benefit">
+          <div class="benefit benefit--has-maring-until-medium">
             <div class="benefit__content">
               <img src="assets/images/vender-icon.png" alt="Vender">
               <h4 class="benefit__caption benefit__caption--blue">Vender</h4>
@@ -159,7 +162,7 @@
 
       <div class="row row--gutters-small">
         <div class="row__large-4 row__double-b-margin">
-          <div class="benefit">
+          <div class="benefit benefit--has-maring-until-medium">
             <div class="benefit__content">
               <img src="assets/images/clientes-icon.png" alt="Clientes satisfeitos">
               <h4 class="benefit__caption benefit__caption--light-green">Clientes satisfeitos</h4>
@@ -169,7 +172,7 @@
         </div>
 
         <div class="row__large-4 row__double-b-margin">
-          <div class="benefit">
+          <div class="benefit benefit--has-maring-until-medium">
             <div class="benefit__content">
               <img src="assets/images/reservas-icon.png" alt="Reservas em qualquer lugar">
               <h4 class="benefit__caption benefit__caption--blue">Reservas em qualquer lugar</h4>
@@ -179,7 +182,7 @@
         </div>
 
         <div class="row__large-4 row__double-b-margin">
-          <div class="benefit">
+          <div class="benefit benefit--has-maring-until-medium">
             <div class="benefit__content">
               <img src="assets/images/aberto-icon.png" alt="Aberto ao mundo">
               <h4 class="benefit__caption benefit__caption--green">Aberto ao mundo</h4>
@@ -191,7 +194,7 @@
 
       <div class="row row--gutters-small">
         <div class="row__large-6">
-          <div class="benefit benefit--bg-green">
+          <div class="benefit benefit--bg-green benefit--has-maring-until-medium">
             <div class="benefit__content benefit__content--wide">
               <h4 class="benefit__caption benefit__description--left">Aumente as reservas com a Activbookings</h4>
               <p class="benefit__description benefit__description--white benefit__description--left">Aumente as reservas para as actividades de animação turística e marítimo-turística. A Activbookings fornece uma solução avançada para ajudá-lo a aumentar as suas vendas, com motor de reservas, site personalizado e marketing digital, ao encontro das suas necessidades.</p>
@@ -200,7 +203,7 @@
         </div>
 
         <div class="row__large-6">
-          <div class="benefit benefit--bg-dark">
+          <div class="benefit benefit--bg-dark benefit--has-maring-until-medium">
             <div class="benefit__content benefit__content--wide">
               <h4 class="benefit__caption benefit__caption--left">Dashboard  intuitivo e fácil de operar</h4>
               <p class="benefit__description benefit__description--white benefit__description--left">Ganhe tempo para concentrar-se na experiência do seu cliente e deixe o dashboard da Ativbookings fazer o resto acessível em qualquer lugar, a partir de qualquer dispositivo móvel.</p>
@@ -297,7 +300,7 @@
   </div>
   <!-- caracteristicas -->
 
-  <div id="planos" class="page-section page-section--has-double-b-padding" data-matching-link="#planos-link">
+  <div id="planos" class="page-section page-section--has-b-padding" data-matching-link="#planos-link">
     <div class="wrapper">
       <h2 class="headline headline--centered">Planos de subscrição</h2>
       <div class="row row--gutters-small row__double-b-margin row--equal-height-at-large">
@@ -400,7 +403,9 @@
 
       <h4 class="headline headline--centered headline--bolder headline--small headline--has-triple-t-margin">Marque uma demonstração sem compromisso.</h4>
 
-      <a href="#" class="btn btn--centered">Saiba mais...</a>
+      <div class="generic-content-container generic-content-container--centered">
+        <a href="#" class="btn">Saiba mais...</a>
+      </div>
     </div>
   </div>
   <!-- planos -->
@@ -408,7 +413,7 @@
   <div id="contacte" class="page-section page-section--grey page-section--has-b-padding" data-matching-link="#contacte-link">
     <div class="wrapper">
       <h2 class="headline headline--centered">Contacte-nos</h2>
-      <div class="contact__image">
+      <div class="generic-content-container generic-content-container--centered">
         <img src="assets/images/contacte-icon.png" alt="Contacte-nos">
       </div>
       <h4 class="headline headline--centered headline--smallest headline--bolder headline--dark headline--lowercase">info@activbookings.com</h4>
@@ -433,12 +438,12 @@
 
         <div class="row row--gutters-small">
           <div class="row__large-6">
-            <div>
+            <div class="contact__submit-wrapper">
               <span class="contact__tip">*Por favor preencha os todos os campos corretamente.</span>
             </div>
           </div>
           <div class="row__large-6">
-            <div>
+            <div class="contact__submit-wrapper">
               <input class="btn btn--submit" type="submit" value="Enviar mensagem">
             </div>
           </div>
@@ -452,14 +457,14 @@
     <div class="wrapper">
       <div class="row">
         <div class="row__large-6">
-          <div>
+          <div class="">
             <p class="copy">
               &copy; 2018 ActivBookings. All Rights Reserved
             </p>
           </div>
         </div>
         <div class="row__large-6">
-          <div>
+          <div class="slogan">
             <img src="assets/images/portugal2020.png" alt="">
           </div>
         </div>

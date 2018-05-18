@@ -10,10 +10,18 @@
     textarea {
       display: block;
       padding: 15px 20px;
-      width: 100%;
+      width: 90%;
       border: 1px solid #dcdcdc;
+      margin-left: 5%;
+      margin-right: 5%;
       margin-bottom: 1rem;
       font-size: 0.9375rem;
+
+      @mixin atMedium {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
     }
 
     textarea {
@@ -21,10 +29,29 @@
     }
   }
 
+  &__submit-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    @mixin atMedium {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
   &__tip {
+    display: block;
     color: #1a1a1a;
     font-size: 0.9375rem;
     font-weight: 500;
-    line-height: 53px;
+    line-height: 1;
+    margin-bottom: 1em;
+
+    @mixin atMedium {
+      line-height: 53px;
+      margin-bottom: 0;
+    }
   }
 }

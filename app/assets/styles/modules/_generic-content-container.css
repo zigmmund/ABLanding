@@ -1,0 +1,6 @@
+.generic-content-container {
+
+  &--centered {
+    text-align: center;
+  }
+}

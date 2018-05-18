@@ -44,16 +44,35 @@
 
     img {
       position: absolute;
-      left: 20px;
+      left: 10%;
       top: 45px;
+
+      @mixin atSmall {
+        left: 25%;
+      }
+
+      @mixin atMedium {
+        left: 20px;
+      }
     }
 
     ul {
       position: absolute;
       left: 30%;
       top: 50px;
+      max-width: 250px;
       padding-right: 20px;
       text-align: left;
+
+      @mixin atSmall {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      @mixin atMedium {
+        left: 30%;
+        transform: translateX(0);
+      }
     }
 
     li {
@@ -101,7 +120,7 @@
   }
 }
 
-/* Hover statuses */
+/* Hover states */
 .feature:hover,
 .feature:focus {
   > .feature__rollover {

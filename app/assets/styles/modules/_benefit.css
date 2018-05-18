@@ -13,6 +13,14 @@
     background-color: $mainDark;
   }
 
+  &--has-maring-until-medium {
+    margin: 0 15px;
+
+    @medium atMedium {
+      margin: 0;
+    }
+  }
+
   &__content {
     position: absolute;
     top: 50%;
