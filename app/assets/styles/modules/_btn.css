@@ -1,0 +1,47 @@
+.btn {
+  display: inline-block;
+  background-color: #212121;
+  color: #fff;
+  font-size: 1.1875rem;
+  padding: 1em 2em 1em;
+  font-weight: 500;
+  &:hover,
+  &:focus {
+    background-color:$mainGreen;
+    color: $mainDark;
+  }
+
+  &--centered {
+    position: absolute;
+    left: 50%;
+    bottom: 75px;
+    transform: translateX(-50%);
+  }
+
+  &--submit {
+    padding: 15px 20px;
+    color: #dcdcdc;
+  }
+}
+
+
+/* travel-site */
+/* .btn {
+  background-color: $mainBlue;
+  color: #fff;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+
+  &--orange {
+    background-color: $mainOrange;
+  }
+
+  &--large {
+    padding: 1.1rem 1.9rem;
+
+    @mixin atSmall {
+      font-size: 1.25rem;
+    }
+  }
+} */

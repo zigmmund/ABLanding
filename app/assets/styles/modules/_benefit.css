@@ -1,0 +1,64 @@
+.benefit {
+  height: 295px;
+  background-color: #fafafb;
+  position: relative;
+  text-align: center;
+  color: #fff;
+
+  &--bg-green {
+    background-color: $mainGreen;
+  }
+
+  &--bg-dark {
+    background-color: $mainDark;
+  }
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    transform: translateY(-50%);
+
+    &--wide {
+      top: 20px;
+      transform: translateY(0);
+    }
+  }
+
+  &__caption {
+    font-size: 1.5625rem;
+    font-weight: 300;
+    margin: .5em 0 1em;
+
+    &--green {
+      color: $mainGreen;
+    }
+
+    &--light-green {
+      color: $mainLightGreen;
+    }
+
+    &--blue {
+      color: $mainBlue;
+    }
+
+    &--left {
+      text-align: left;
+    }
+  }
+
+  &__description {
+    font-size: 1rem;
+    font-weight: 300;
+    color: $mainDark;
+
+    &--white {
+      color: #fff;
+    }
+
+    &--left {
+      text-align: left;
+    }
+  }
+}

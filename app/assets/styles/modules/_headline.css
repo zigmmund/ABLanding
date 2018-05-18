@@ -1,0 +1,118 @@
+.headline {
+  font-size: 2rem;
+  color: $mainDark;
+  font-weight: normal;
+  margin-bottom: 1em;
+
+  &--middle {
+    font-size: 1.625rem;
+    font-weight: normal;
+  }
+
+  &--small {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  &--smallest {
+    font-size: 1rem;
+  }
+
+  &--bolder {
+    font-weight: 500;
+  }
+
+  &--dark {
+    color: $mainDark;
+  }
+
+  &--white {
+    color: #fff;
+  }
+
+  &--lowercase {
+    text-transform: lowercase;
+  }
+
+  &--has-triple-t-margin {
+    margin-top: 3em;
+  }
+
+  &--double-b-margin {
+    margin-bottom: 2em;
+  }
+
+  &--triple-b-margin {
+    margin-bottom: 3em;
+  }
+
+  &--narrow {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--wide {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+}
+
+
+/* travel-site */
+/* .headline {
+  font-weight: 300;
+  font-size: 1.9rem;
+  color: $mainBlue;
+
+  @mixin atSmall {
+    font-size: 2.875rem;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--orange {
+    color: $mainOrange;
+  }
+
+  &--small {
+    font-size: 1.2rem;
+
+    @mixin atSmall {
+      font-size: 1.875rem;
+    }
+  }
+
+  &--narrow {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--light {
+    font-weight: 100;
+  }
+
+  strong {
+    font-weight: 400;
+  }
+
+  &--b-margin-small {
+    margin-bottom: .5em;
+  }
+
+  &--b-margin-large {
+    margin-bottom: 1.6em;
+  }
+
+  &--no-t-margin {
+    margin-top: 0;
+  }
+} */

@@ -1,0 +1,30 @@
+.contact {
+
+  &__image {
+    text-align: center;
+  }
+
+  &__form {
+
+    input:not([type="submit"]),
+    textarea {
+      display: block;
+      padding: 15px 20px;
+      width: 100%;
+      border: 1px solid #dcdcdc;
+      margin-bottom: 1rem;
+      font-size: 0.9375rem;
+    }
+
+    textarea {
+      resize: none;
+    }
+  }
+
+  &__tip {
+    color: #1a1a1a;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 53px;
+  }
+}

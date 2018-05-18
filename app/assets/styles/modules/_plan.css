@@ -1,0 +1,102 @@
+.plan {
+  width: 100%;
+  min-height: 210px;
+  position: relative;
+  padding: 2rem;
+
+  &__text-content {
+    position: absolute;
+    left: 30%;
+    top: 15px;
+  }
+
+  &__caption {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: .25em;
+
+    &--dark {
+      color: $mainDark;
+    }
+
+    &--green {
+      color: $mainGreen;
+    }
+  }
+
+  &__description {
+    font-size: 1.1875rem;
+    color: #fff;
+    font-weight: normal;
+  }
+
+  &--bg-green {
+    background-color: $mainGreen;
+  }
+
+  &--bg-dark {
+    background-color: $mainDark;
+  }
+
+  &__table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+
+    tbody tr:nth-child(odd) {
+      background-color: #eeeff3;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #fafafb;
+    }
+
+    tr th {
+      height: 14px;
+    }
+
+    tr th:nth-child(1) {
+      width: 50%;
+      background-color: transparent;
+    }
+
+    tr th:nth-child(2) {
+      width: 25%;
+      background-color: $mainGreen;
+      border-right: 1px solid #fff;
+    }
+
+    tr th:nth-child(3) {
+      background-color: $mainDark;
+      width: 25%;
+    }
+
+    tr td {
+      padding: 15px;
+      font-size: 15px;
+      color: $mainDark;
+    }
+
+    tr td:nth-child(2) {
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      text-align: center;
+    }
+
+    tr td:last-child {
+      text-align: center;
+    }
+
+    span.green {
+      color: $mainGreen;
+    }
+
+    span.dark {
+      color: $mainDark;
+    }
+
+    span.transparent {
+      opacity: .5;
+    }
+  }
+}

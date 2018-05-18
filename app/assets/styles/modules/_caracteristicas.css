@@ -1,0 +1,35 @@
+.caracteristicas {
+  width: 100%;
+
+  &--has-paddings {
+    padding: 1.5rem 3rem 1.5rem 6rem;
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+  }
+
+  &--bg-green {
+    background-color: $mainGreen;
+  }
+
+  &--bg-light-green {
+    background-color: $mainLightGreen;
+  }
+
+  &--bg-blue {
+    background-color: $mainBlue;
+  }
+
+  strong {
+    font-weight: 500;
+    color: #fff;
+  }
+
+  li {
+    color: #fff;
+    margin-bottom: .5em;
+    font-weight: 300;
+  }
+}
