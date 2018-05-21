@@ -462,6 +462,7 @@ body {
   font-size: 16px;
   max-width: 1366px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 a {
@@ -478,25 +479,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-/* body {
-  margin: 0;
-  font-family: 'Robodo', sans-serif;
-  color: #666;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-a {
-  color: $mainOrange;
-} */
 
 .large-hero {
   position: relative;
