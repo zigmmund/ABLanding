@@ -3,11 +3,11 @@
 }
 
 body {
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   max-width: 1366px;
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
