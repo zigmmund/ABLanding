@@ -18,7 +18,7 @@
     margin-bottom: 60px;
   }
 
-  @mixin atLarge {
+  @mixin atMedium {
     &__large-4 {
       float: left;
       width: 33.33%;

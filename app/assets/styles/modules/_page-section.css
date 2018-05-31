@@ -1,13 +1,13 @@
 .page-section {
-  padding: 1.2rem 0 0;
+  padding: 1.2rem 0;
   position: relative;
 
   @mixin atMedium {
-    padding: 4.5rem 0 0;
+    padding: 4.5rem 0;
   }
 
   &--has-small-padding {
-    padding: 1.2rem 0 1.2rem;
+    padding: 1.2rem 0;
   }
 
   &--has-b-padding {
