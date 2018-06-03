@@ -16,7 +16,7 @@
   &--has-margin-until-medium {
     margin: 0 15px;
 
-    @medium atMedium {
+    @mixin atMedium {
       margin: 0;
     }
   }

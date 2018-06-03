@@ -907,8 +907,11 @@ img {
 
 .benefit--has-margin-until-medium {
   margin: 0 15px;
+}
 
-  @medium atMedium {
+@media (min-width: 992px) {
+
+  .benefit--has-margin-until-medium {
     margin: 0;
   }
 }
