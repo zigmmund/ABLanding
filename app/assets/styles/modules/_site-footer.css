@@ -9,7 +9,7 @@
     margin-right: 5%;
     width: 90%;
 
-    @mixix atMedium {
+    @mixin atMedium {
       margin-left: 0;
       margin-right: 0;
       width: 100%;
@@ -21,7 +21,7 @@
     margin-right: 5%;
     width: 90%;
 
-    @mixix atMedium {
+    @mixin atMedium {
       margin-left: 0;
       margin-right: 0;
       width: 100%;

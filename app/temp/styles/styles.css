@@ -905,7 +905,7 @@ img {
   background-color: #333;
 }
 
-.benefit--has-maring-until-medium {
+.benefit--has-margin-until-medium {
   margin: 0 15px;
 
   @medium atMedium {
@@ -1190,8 +1190,11 @@ img {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
+}
 
-  @mixix atMedium {
+@media (min-width: 992px) {
+
+  .site-footer .copy {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
@@ -1202,8 +1205,11 @@ img {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
+}
 
-  @mixix atMedium {
+@media (min-width: 992px) {
+
+  .site-footer .slogan {
     margin-left: 0;
     margin-right: 0;
     width: 100%;

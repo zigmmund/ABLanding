@@ -13,7 +13,7 @@
     background-color: $mainDark;
   }
 
-  &--has-maring-until-medium {
+  &--has-margin-until-medium {
     margin: 0 15px;
 
     @medium atMedium {
