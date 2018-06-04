@@ -553,6 +553,10 @@ img {
   overflow: hidden;
 }
 
+.wrapper--wide {
+  max-width: 1366px;
+}
+
 .page-section {
   padding: 1.2rem 0;
   position: relative;
