@@ -26,6 +26,14 @@
     }
   }
 
+  &--has-double-t-padding {
+    padding-top: 2.4rem;
+
+    @mixin atMedium {
+      padding-top: 9rem;
+    }
+  }
+
   &--has-no-paddings {
     padding: 0;
   }

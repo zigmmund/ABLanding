@@ -448,9 +448,17 @@ ul {
   list-style: none;
 }
 
+ol li {
+  padding: 5px;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .large-hero {
@@ -595,6 +603,17 @@ img {
   }
 }
 
+.page-section--has-double-t-padding {
+  padding-top: 2.4rem;
+}
+
+@media (min-width: 992px) {
+
+  .page-section--has-double-t-padding {
+    padding-top: 9rem;
+  }
+}
+
 .page-section--has-no-paddings {
   padding: 0;
 }
@@ -714,6 +733,11 @@ img {
   .row__large-6 {
     float: left;
     width: 50%;
+  }
+
+  .row__large-10 {
+    width: 83.33%;
+    margin-left: 8.33%;
   }
 }
 
