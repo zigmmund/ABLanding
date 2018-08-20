@@ -38,6 +38,22 @@
     padding: 0;
   }
 
+  &--has-top-padding-until-medium {
+    padding-top: 9rem;
+    @mixin atMedium {
+      padding-top: 4.5rem;
+    }
+  }
+
+  &--has-side-padding-until-medium {
+    padding-left: 15px;
+    padding-right: 15px;
+    @mixin atMedium {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
   &--grey {
     background-color: #fafafb;
   }

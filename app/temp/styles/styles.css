@@ -618,6 +618,30 @@ img {
   padding: 0;
 }
 
+.page-section--has-top-padding-until-medium {
+  padding-top: 9rem;
+}
+
+@media (min-width: 992px) {
+
+  .page-section--has-top-padding-until-medium {
+    padding-top: 4.5rem;
+  }
+}
+
+.page-section--has-side-padding-until-medium {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+
+  .page-section--has-side-padding-until-medium {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .page-section--grey {
   background-color: #fafafb;
 }
