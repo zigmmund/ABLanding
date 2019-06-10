@@ -1480,6 +1480,22 @@ img {
   }
 }
 
+.primary-nav a.languagepicker {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 10px 0;
+}
+
+.primary-nav a.nonactive img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.primary-nav img {
+  width: 24px;
+  height: auto;
+}
+
 @media (min-width: 992px) {
 
   .primary-nav--pull-right {

@@ -37,6 +37,21 @@
     }
   }
 
+  a.languagepicker {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px 0;
+  }
+
+  a.nonactive img {
+    filter: grayscale(100%);
+  }
+
+  img {
+    width: 24px;
+    height: auto;
+  }
+
   &--pull-right {
     @mixin atMedium {
       float: right;
